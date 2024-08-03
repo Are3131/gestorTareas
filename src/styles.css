@@ -1,0 +1,67 @@
+/*estilos generales*/
+body {
+    font-family: Arial,  sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+
+/*Estilos al contenedor principal*/
+#app {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*estilos para el formulario*/
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* estilos al input*/
+input {
+    width: 75%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border border-radius: 3px;
+}
+
+/*estilos al boton*/
+button {
+    padding: 5px 8px;
+    background-color: #007bff;
+    color: white
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*estilos de la lista*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*estilos a los elementos de la lista*/
+li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    aling-items: center;
+}
+
+/*estilos para cuando no esta completada*/
+li.completed {
+    text-decoration: line-through;
+    color: #888
+}
