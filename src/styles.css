@@ -1,6 +1,6 @@
 /*estilos generales*/
 body {
-    font-family: Arial,  sans-serif;
+    font-family: cursive,  sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -8,13 +8,14 @@ body {
     display: flex;
     justify-content:  center;
     align-items: center;
+    background-color: #ecacc7;
 }
 
 /*Estilos al contenedor principal*/
 #app {
-    background-color: white;
+    background-image: url("../img/mymelody.jpeg");
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,16 +31,16 @@ input {
     padding: 8px;
     margin-right: 10px;
     border: 1px solid #ddd;
-    border-radius: 3px;
+    border-radius: 15px;
 }
 
 /*estilos al boton*/
 button {
     padding: 5px 8px;
-    background-color: #007bff;
-    color: white;
+    background-color: #f79dc2;
+    color: rgb(245, 240, 247);
     border: none;
-    border-radius: 3px;
+    border-radius: 15px;
     cursor: pointer;
 }
 
@@ -47,17 +48,20 @@ button {
 ul {
     list-style: none;
     padding: 0;
+    border-radius: 15px;
 }
 
 /*estilos a los elementos de la lista*/
 li {
     background-color: #f4f4f4;
     padding: 10px;
+    width: 400px;
     border: 1px solid #ddd;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 15px;
 }
 
 /*estilos para cuando no esta completada*/

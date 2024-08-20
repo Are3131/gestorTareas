@@ -16,8 +16,10 @@ export const renderTask = () => {
 
        li.innerHTML = `
        ${task.text}
+       <div class="buttons">
        <button class="delete"> Borrar </button>
        <button class="toggle"> ${task.completed === true ? "Regresar" : "Completado" }    </button>
+       </div>
        `;
 
        taskList.appendChild(li);
